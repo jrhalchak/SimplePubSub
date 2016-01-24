@@ -1,5 +1,5 @@
 {
-  "name": "SimplePubSub",
+  "name": "simple-pub-sub",
   "version": "0.0.2",
   "description": "A lightweight pubsub in vanilla js",
   "author": "JR Halchak <jrh@jrhalchak.com>",
