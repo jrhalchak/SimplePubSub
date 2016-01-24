@@ -1,12 +1,19 @@
 {
   "name": "SimplePubSub",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A lightweight pubsub in vanilla js",
   "author": "JR Halchak <jrh@jrhalchak.com>",
   "contributors": [{
     "name": "JR Halchak",
     "email": "jrh@jrhalchak.com"
   }],
+  "repository": {
+    "type": "git",
+    "url":"https://github.com/jrhalchak/SimplePubSub"
+  },
+  "bugs": {
+    "url": "https://github.com/jrhalchak/SimplePubSub/issues"
+  },
   "keywords": [
     "pubsub",
     "pub-sub",
