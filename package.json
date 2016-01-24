@@ -1,0 +1,25 @@
+{
+  "name": "SimplePubSub",
+  "version": "0.0.1",
+  "description": "A lightweight pubsub in vanilla js",
+  "author": "JR Halchak <jrh@jrhalchak.com>",
+  "contributors": [{
+    "name": "JR Halchak",
+    "email": "jrh@jrhalchak.com"
+  }],
+  "keywords": [
+    "pubsub",
+    "pub-sub",
+    "events",
+    "subscription"
+  ],
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.1",
+    "gulp-babel": "^6.1.1",
+    "babel-preset-es2015": "^6.3.13"
+  },
+  "license": "GPL-3.0"
+}
