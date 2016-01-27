@@ -10,7 +10,7 @@ const root = typeof window == 'undefined' ? module : window || {};
   } else {
     root.simplePubSub = root.SPS = factory()
   }
-}((window || module || {}), function() {
+}((root), function() {
   var _eventRegister = {};
 
   class SimplePubSub {
