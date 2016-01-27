@@ -4,6 +4,8 @@ Simple PubSub is a small library that offers arbitrary event bindings using a co
 
 Simple PubSub can be run in-browser or in node (_theoretically_). It's AMD and CommonJs _compatible_.
 
+**Apologies**: Fixed library to *actually* run in node with a more simple `require('simple-pub-sub')`.
+
 ## Methods
 Simple PubSub adds two objects to the global scope, both referencing the pubsub (because I'm lazy and didn't want to type the full name). They are `SPS` and `simplePubSub`, you can use either one.
 

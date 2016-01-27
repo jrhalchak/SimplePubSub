@@ -1,3 +1,5 @@
+const root = typeof window == 'undefined' ? module : window || {};
+
 (function(root, factory) {
   if(typeof define === 'function' && define.amd) {
     define([], function() {
@@ -10,7 +12,7 @@
   }
 }((window || module || {}), function() {
   var _eventRegister = {};
-  
+
   class SimplePubSub {
     on(e, ...callback) {
       if(callback.length && _eventRegister[e] && _eventRegister[e].length) {

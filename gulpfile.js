@@ -9,8 +9,10 @@ gulp.task('scripts', function() {
     .pipe(plumber())
     .pipe(babel())
     .pipe(gulp.dest('./bin/'))
+    .pipe(rename({ basename: 'index' }))
+    .pipe(gulp.dest('./'))
     .pipe(uglify())
-    .pipe(rename({ extname: '.min.js'}))
+    .pipe(rename({ basename: 'simplePubSub', extname: '.min.js'}))
     .pipe(gulp.dest('./bin/'))
 });
 
